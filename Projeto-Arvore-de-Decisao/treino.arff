@@ -1,0 +1,44 @@
+@relation bairros_santa_helena
+
+@attribute Bairro string
+@attribute Topografia {A, D, P, I}
+@attribute Utilizacao {R, C, T}
+@attribute EstadoConservacao {O, B, R, M}
+@attribute Esgoto {Sim, Nao}
+@attribute Pavimentacao {P, A, I}
+@attribute PrecoM2 numeric
+@attribute DistUTFPR numeric
+@attribute DistPracaCentral numeric
+@attribute Adequado {Sim, Nao}
+
+@data
+'Centro_Lote1',P,C,O,Sim,A,1200,2.5,0.2,Sim
+'Centro_Lote2',P,R,B,Sim,A,1000,2.6,0.4,Sim
+'Centro_Lote3',A,C,O,Sim,A,1500,2.4,0.1,Sim
+'Centro_Lote4',P,R,O,Sim,A,1100,2.8,0.5,Sim
+'Centro_Lote5',P,C,B,Sim,A,950,2.7,0.6,Sim
+'Sao_Luiz_Lote1',P,R,O,Sim,A,400,0.1,2.6,Sim
+'Sao_Luiz_Lote2',P,T,B,Sim,P,380,0.5,2.4,Sim
+'Sao_Luiz_Lote3',A,R,B,Sim,P,350,0.8,2.2,Sim
+'Sao_Luiz_Lote4',P,R,O,Sim,A,420,0.3,2.5,Sim
+'Sao_Luiz_Lote5',P,T,R,Sim,P,300,0.9,2.1,Nao
+'Baixada_Amarela_Lote1',D,R,B,Sim,A,650,3.5,1.2,Sim
+'Baixada_Amarela_Lote2',D,R,R,Nao,P,500,3.6,1.4,Nao
+'Baixada_Amarela_Lote3',P,C,B,Sim,A,700,3.2,1.0,Sim
+'Baixada_Amarela_Lote4',D,T,M,Nao,I,350,3.8,1.6,Nao
+'Baixada_Amarela_Lote5',P,R,O,Sim,A,750,3.4,1.1,Sim
+'Cidade_Alta_Lote1',A,R,O,Sim,A,500,1.5,1.5,Sim
+'Cidade_Alta_Lote2',A,R,B,Sim,A,480,1.6,1.4,Sim
+'Cidade_Alta_Lote3',P,T,R,Sim,P,400,1.4,1.6,Nao
+'Cidade_Alta_Lote4',A,R,M,Nao,I,250,1.8,1.2,Nao
+'Cidade_Alta_Lote5',P,R,B,Sim,A,450,1.5,1.5,Sim
+'Vila_Rica_Lote1',P,R,B,Sim,P,380,2.0,2.0,Sim
+'Vila_Rica_Lote2',P,R,R,Nao,P,300,2.1,1.9,Nao
+'Vila_Rica_Lote3',A,T,B,Sim,P,350,1.9,2.1,Sim
+'Vila_Rica_Lote4',P,R,M,Nao,I,200,2.2,1.8,Nao
+'Vila_Rica_Lote5',P,R,O,Sim,A,420,2.0,2.0,Sim
+'Vila_Celeste_Lote1',I,R,M,Nao,I,100,14.0,14.5,Nao
+'Vila_Celeste_Lote2',D,T,R,Nao,P,150,14.2,14.7,Nao
+'Sub_Sede_Lote1',P,R,R,Nao,P,180,12.0,12.5,Nao
+'Sub_Sede_Lote2',P,C,B,Nao,A,250,11.8,12.3,Nao
+'Sub_Sede_Lote3',A,R,M,Nao,I,120,12.1,12.6,Nao

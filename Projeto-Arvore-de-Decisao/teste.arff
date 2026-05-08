@@ -1,0 +1,24 @@
+@relation bairros_santa_helena
+
+@attribute Bairro string
+@attribute Topografia {A, D, P, I}
+@attribute Utilizacao {R, C, T}
+@attribute EstadoConservacao {O, B, R, M}
+@attribute Esgoto {Sim, Nao}
+@attribute Pavimentacao {P, A, I}
+@attribute PrecoM2 numeric
+@attribute DistUTFPR numeric
+@attribute DistPracaCentral numeric
+@attribute Adequado {Sim, Nao}
+
+@data
+'Centro_Lote6',P,C,O,Sim,A,1300,2.6,0.3,Sim
+'Centro_Lote7',A,R,B,Sim,A,980,2.7,0.4,Sim
+'Sao_Luiz_Lote6',P,R,O,Sim,P,390,0.2,2.5,Sim
+'Sao_Luiz_Lote7',P,T,R,Sim,I,250,0.7,2.3,Nao
+'Baixada_Amarela_Lote6',D,C,O,Sim,A,720,3.3,1.1,Sim
+'Baixada_Amarela_Lote7',D,R,M,Nao,I,300,3.7,1.5,Nao
+'Cidade_Alta_Lote6',A,R,B,Sim,A,460,1.5,1.5,Sim
+'Vila_Rica_Lote6',P,R,B,Sim,P,370,2.0,2.0,Sim
+'Vila_Celeste_Lote3',I,T,M,Nao,I,110,14.5,15.0,Nao
+'Sub_Sede_Lote4',P,R,R,Nao,P,160,12.2,12.7,Nao
